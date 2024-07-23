@@ -77,3 +77,58 @@ Split the string into an array of words, find the length of each word, join the 
 10. Substring Replacement and Case Change
 Given the string const feedback = "This course is simply amazing. This course is simply comprehensive."
 Replace all occurrences of "course" with "program", convert the entire string to uppercase, slice the string from the 5th character to the 55th character, and then split it into an array by spaces.
+
+//Full ASSIGNMENT
+
+Advanced String Methods Assignment
+
+Extract, Transform, and Reconstruct
+
+Given the string const sentence = "The quick brown fox jumps over the lazy dog";
+Extract the word "brown", convert it to uppercase, remove the word "lazy", and replace the word "dog" with the transformed word.
+Expected Output: "The quick BROWN fox jumps over the BROWN"
+Domain and Username Extraction
+
+Given the string const email = "Student.Name@SchoolDomain.com";
+Extract the domain, convert it to lowercase, extract the username (part before "@"), convert the username to uppercase, and then concatenate them in the format "USERNAME@domain".
+Expected Output: "STUDENT.NAME@schooldomain.com"
+Clean, Count, and Extract
+
+Given the string const messyString = " Too many spaces here. ";
+Trim the string, find its length, and then extract a substring from the 5th character to the length minus 5 characters.
+Expected Output: "many spaces here"
+Complex Word Replacement
+
+Given the string const phrase = "I like to code in JavaScript. JavaScript is fun!";
+Replace the first occurrence of "JavaScript" with "JS", replace all remaining occurrences of "JavaScript" with "JS", convert the entire string to uppercase, and then extract a substring from the 10th character to the 30th character.
+Expected Output: "ODE IN JS. JS IS F"
+Character Manipulation
+
+Given the string const text = "Programming is highly rewarding";
+Retrieve the character at the 10th position, find its Unicode value, replace all occurrences of the character "g" with the Unicode character, and then slice the string from the 8th character to the 28th character.
+Expected Output: "rammin103 is hi103hly rew103ard"
+Complex String Joining
+
+Given the strings const firstName = "Jane";, const middleName = "Marie";, and const lastName = "Smith";
+Concatenate these strings with a space in between, convert the result to uppercase, find the index of the letter "M", and replace "Marie" with "Ann".
+Expected Output: "JANE ANN SMITH", Index: 5
+Sentence Start and End Analysis
+
+Given the string const statement = "JavaScript is a versatile and popular programming language";
+Check if the statement starts with "JavaScript", ends with "language", replace "versatile" with "powerful", and convert the resulting string to lowercase.
+Expected Output: "javascript is a powerful and popular programming language", true, true
+Substring Manipulation
+
+Given the string const description = "Backend development involves working with databases, servers, and APIs";
+Extract the substring "databases, servers, and APIs", convert it to lowercase, split it into an array by commas, and join the array with " & " instead of commas.
+Expected Output: "databases & servers & and apis"
+Word Split and Count
+
+Given the string const announcement = "Join the new online coding bootcamp now";
+Split the string into an array of words, find the length of each word, join the lengths into a string separated by commas, and then find the index of the first occurrence of the length "5".
+Expected Output: "4,3,3,6,6,7,3", Index: 15
+Substring Replacement and Case Change
+
+Given the string const feedback = "This course is simply amazing. This course is simply comprehensive."
+Replace all occurrences of "course" with "program", convert the entire string to uppercase, slice the string from the 5th character to the 55th character, and then split it into an array by spaces.
+Expected Output: ["COURSE", "IS", "SIMPLY", "AMAZING.", "THIS", "COURSE", "IS", "SIMPLY", "COMPRE"]

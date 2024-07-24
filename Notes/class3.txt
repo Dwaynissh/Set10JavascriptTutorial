@@ -24,16 +24,28 @@ For the Medium article, provide the link to your published article in your submi
 For the array.js file, upload the image on the group and tag me with your information as usual
 
 3. Create an Array
+
 1.Access and print the last fruit in the array.
+
 2.Access and print the favoriteArtist in the array.
+
 3.Access and print the favoriteSong in the array.
+
 4.Access and print the user's name.
+
 5.Access and print the user's email.
+
 6.Access and print the user's age.
+
 7.Access and print the user's favorite color.
+
 8.Access and print if the user is active.
+
 9.Access and print the duration of the first song in the "Chill Vibes" playlist.
+
 10.Access and print if the second song in the "Chill Vibes" playlist is a favorite.
+
 11.Access and print the name of the second playlist.
+
 12.Access and print the title of the second song in the "Workout Mix" playlist.
 

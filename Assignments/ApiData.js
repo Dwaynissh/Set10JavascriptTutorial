@@ -62,3 +62,16 @@ const apiData = {
     ],
   },
 };
+console.clear();
+console.log("1. ", apiData.fruits[9]);
+console.log("2. ", apiData.fruits[10].favoriteArtist);
+console.log("3. ", apiData.fruits[10].favoriteSong);
+console.log("4. ", apiData.user.name);
+console.log("5. ", apiData.user.email);
+console.log("6. ", apiData.user.age);
+console.log("7. ", apiData.user.preferences.color);
+console.log("8. ", apiData.user.preferences.isActive);
+console.log("9. ", apiData.user.playlists[0].songs[0].duration);
+console.log("10. ", apiData.user.playlists[0].songs[1].isFavorite);
+console.log("11. ", apiData.user.playlists[1].name);
+console.log("12. ", apiData.user.playlists[1].songs[1].title);

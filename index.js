@@ -33,3 +33,9 @@ const myNewShoe = "Nike air force 1";
 console.log(myNewShoe);
 
 //
+
+console.clear();
+
+let fullName = "";
+let avatar = fullName.charAt(0) + fullName.charAt(fullName.indexOf(" ") + 1);
+console.log(avatar);

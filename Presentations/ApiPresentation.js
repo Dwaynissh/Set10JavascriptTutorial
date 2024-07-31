@@ -1,3 +1,4 @@
+// Group 1
 const libraryAPI = {
   books: [
     {
@@ -38,7 +39,7 @@ const libraryAPI = {
   ],
 };
 
-// Movie
+// Group 2
 const movieAPI = {
   movies: [
     {
@@ -72,6 +73,7 @@ const movieAPI = {
   ],
 };
 
+// Group 3
 const restaurantAPI = {
   restaurants: [
     {
@@ -109,6 +111,7 @@ const restaurantAPI = {
   ],
 };
 
+// Group 4
 const travelAPI = {
   destinations: [
     {

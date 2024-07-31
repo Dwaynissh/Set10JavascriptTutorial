@@ -1,0 +1,37 @@
+Set10 Second Class 7.
+
+• CLASS OBJECTIVES
+1. Simple Plain Array METHODS Classwork
+2. HigherOrder Array Methods
+3. Differences Between Plain Array methods and HigherOrder Array Methods
+
+ARRAY METHODS OVERVIEW.
+
+HIGHER-ORDER ARRAY Methods.
+    Higher-order array methods, on the other hand, take functions as arguments to perform more complex operations, like transforming or filtering elements based on specified criteria.
+
+1. map(callbackFn, thisArg): Creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+2. filter(callbackFn, thisArg): Creates a new array with all elements that pass the test implemented by the provided function.
+
+3. reduce(callbackFn, initialValue): Executes a reducer function on each element of the array, resulting in a single output value.
+
+4. reduceRight(callbackFn, initialValue): Executes a reducer function on each element of the array, resulting in a single output value, from right to left.
+
+5. forEach(callbackFn, thisArg): Executes a provided function once for each array element.
+
+6. find(callbackFn, thisArg): Returns the value of the first element in the array that satisfies the provided testing function.
+
+7. findIndex(callbackFn, thisArg): Returns the index of the first element in the array that satisfies the provided testing function.
+
+8. every(callbackFn, thisArg): Tests whether all elements in the array pass the test implemented by the provided function.
+
+9. some(callbackFn, thisArg): Tests whether at least one element in the array passes the test implemented by the provided function.
+
+10. flat(depth): Creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+
+11. flatMap(callbackFn, thisArg): First maps each element using a mapping function, then flattens the result into a new array.
+
+12. from(arrayLike, mapFn, thisArg): Creates a new, shallow-copied Array instance from an array-like or iterable object.
+
+13. of(element0, element1, ..., elementN): Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments.

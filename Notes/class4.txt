@@ -39,7 +39,7 @@ STRING METHODS OVERVIEW.
 
 1. Extract, Transform, and Reconstruct
 Given the string const sentence = "The quick brown fox jumps over the lazy dog";
-Extract the word "brown", convert it to uppercase, remove the word "lazy", and replace the word "dog" with the transformed/extracted word.
+Extract the word "brown", convert it to uppercase, remove the word "lazy", and replace the word "dog" with the extracted word.
 
 2. Domain and Username Extraction
 Given the string const email = "Student.Name@SchoolDomain.com";

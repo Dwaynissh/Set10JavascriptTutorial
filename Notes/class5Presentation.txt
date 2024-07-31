@@ -1,3 +1,6 @@
+Set10 Class 6. JavaScript Object Presentation
+
+
 Group A.
 15 questions for the libraryAPI:
 

@@ -91,3 +91,14 @@ console.log("checking lastIndexOF = ", welcome.lastIndexOf("Welcome"));
 // 14. includes
 const finale = "This is where we will end our Javascript class today";
 console.log("checking includes = ", finale.includes("hello"));
+
+// To get Name initials
+
+const $name = "Mama Yekini Ayoba";
+
+const final =
+  $name.charAt(0) +
+  $name.charAt($name.indexOf(" ") + 1) +
+  $name.charAt($name.lastIndexOf(" ") + 1);
+
+console.log("1. ", final);

@@ -1,4 +1,7 @@
-Set10 Class 6. JavaScript Object Presentation
+Set10 Class 5. JavaScript Object Presentation And String Methods Presentation
+
+OBJECTIVES
+1. JavaScript Object Presentation
 
 
 Group A.
@@ -134,3 +137,39 @@ Access and print on the console the popular attraction listed second for Tokyo.
 Access and print on the console the price of the "Romantic Getaway" tour.
 
 Access and print on the console the name of the tour with a duration of "4 days" in Tokyo.
+
+Group E
+15 questions based on the musicAPI:
+
+1. Access and print on the console the title of the first album in the albums array.
+
+2. Access and print on the console the name of the artist of the album "Thriller".
+
+3. Access and print on the console the nationality of the artist of the album "Superstar".
+
+4. Access and print on the console all genres of the album "Thriller".
+
+5. Access and print on the console the duration of the track "Beat It".
+
+6. Access and print on the console the name of the artist of the album "Superstar".
+
+7. Access and print on the console the title of the second album in the albums array.
+
+8. Access and print on the console the genres of the album "Superstar".
+
+9. Access and print on the console the name of the first track in the album "Thriller".
+
+10. Access and print on the console the duration of the track "Pakurumo".
+
+11. Access and print on the console the second genre of the album "Thriller".
+
+12. Access and print on the console the nationality of Michael Jackson.
+
+13. Access and print on the console the name of the second track in the album "Superstar".
+
+14. Access and print on the console the duration of the track "Billie Jean".
+
+15. Access and print on the console all tracks of the album "Superstar".
+
+
+STRING METHODS PRESENTATION QUESTIONS

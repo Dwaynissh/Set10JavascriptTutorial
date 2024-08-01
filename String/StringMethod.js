@@ -96,9 +96,6 @@ console.log("checking includes = ", finale.includes("hello"));
 
 const $name = "Mama Yekini Ayoba";
 
-const final =
-  $name.charAt(0) +
-  $name.charAt($name.indexOf(" ") + 1) +
-  $name.charAt($name.lastIndexOf(" ") + 1);
+const final = $name.charAt(0) + $name.charAt($name.indexOf(" ") + 1);
 
 console.log("1. ", final);

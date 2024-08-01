@@ -1,4 +1,3 @@
-// Group 1
 const libraryAPI = {
   books: [
     {
@@ -39,7 +38,7 @@ const libraryAPI = {
   ],
 };
 
-// GROUP 1 libraryAPI
+// GROUP A libraryAPI
 
 // console.log("1 ", libraryAPI.books[0].title);
 // console.log("2 ", libraryAPI.books[0].author.name);
@@ -57,7 +56,8 @@ const libraryAPI = {
 // console.log("14 ", libraryAPI.books[1].author.name);
 // console.log("15 ", libraryAPI.books[1].reviews[0].rating);
 
-// Group 2
+// Group B
+
 const movieAPI = {
   movies: [
     {
@@ -91,7 +91,7 @@ const movieAPI = {
   ],
 };
 
-// Group 2 movieAPI
+// Group B movieAPI
 // console.log("1 ", movieAPI.movies[0].title);
 // console.log("2 ", movieAPI.movies[0].genres);
 // console.log("3 ", movieAPI.movies[0].cast[0].role);
@@ -108,7 +108,8 @@ const movieAPI = {
 // console.log("14 ", movieAPI.movies[1].cast);
 // console.log("15 ", movieAPI.movies[1].cast[0].role);
 
-// Group 3
+// Group C
+
 const restaurantAPI = {
   restaurants: [
     {
@@ -145,8 +146,7 @@ const restaurantAPI = {
     },
   ],
 };
-
-// Group 3 restaurantAPI
+// Group C restaurantAPI
 // console.log("1 ", restaurantAPI.restaurants[0].name);
 // console.log("2 ", restaurantAPI.restaurants[0].cuisineType);
 // console.log("3 ", restaurantAPI.restaurants[0].menu[0].ingredients);
@@ -163,7 +163,8 @@ const restaurantAPI = {
 // console.log("14 ", restaurantAPI.restaurants[0].name);
 // console.log("15 ", restaurantAPI.restaurants[1].menu[1].ingredients[1]);
 
-// Group 4
+// GROUP D
+
 const travelAPI = {
   destinations: [
     {
@@ -201,7 +202,7 @@ const travelAPI = {
   ],
 };
 
-// Group 4 travelAPI
+// Group D travelAPI
 // console.log("1 ", travelAPI.destinations[0].locationName);
 // console.log("2 ", travelAPI.destinations[0].popularAttractions);
 // console.log("3 ", travelAPI.destinations[0].tours[1].duration);
@@ -217,45 +218,3 @@ const travelAPI = {
 // console.log("13 ", travelAPI.destinations[1].popularAttractions[1]);
 // console.log("14 ", travelAPI.destinations[0].tours[1].price);
 // console.log("15 ", travelAPI.destinations[1].tours[0].tourName);
-
-// Group 5
-const musicAPI = {
-  albums: [
-    {
-      title: "Thriller",
-      artist: {
-        name: "Michael Jackson",
-        nationality: "American",
-      },
-      genres: ["Pop", "Rock", "Blues"],
-      tracks: [
-        {
-          trackName: "Beat It",
-          duration: "4:18",
-        },
-        {
-          trackName: "Billie Jean",
-          duration: "4:54",
-        },
-      ],
-    },
-    {
-      title: "Superstar",
-      artist: {
-        name: "Wizkid",
-        nationality: "Nigerian",
-      },
-      genres: ["Afrobeats", "R & B", "Afropop"],
-      tracks: [
-        {
-          trackName: "Pakurumo",
-          duration: "3:12",
-        },
-        {
-          trackName: "Baba Nla",
-          duration: "4:10",
-        },
-      ],
-    },
-  ],
-};

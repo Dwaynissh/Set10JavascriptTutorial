@@ -38,23 +38,7 @@ const libraryAPI = {
   ],
 };
 
-// GROUP A libraryAPI
 
-// console.log("1 ", libraryAPI.books[0].title);
-// console.log("2 ", libraryAPI.books[0].author.name);
-// console.log("3 ", libraryAPI.books[1].author.nationality);
-// console.log("4 ", libraryAPI.books[0].genres);
-// console.log("5 ", libraryAPI.books[0].reviews[0].rating);
-// console.log("6 ", libraryAPI.books[0].reviews[1].comment);
-// console.log("7 ", libraryAPI.books[1].title);
-// console.log("8 ", libraryAPI.books[1].genres);
-// console.log("9 ", libraryAPI.books[1].reviews[0].reviewer);
-// console.log("10 ", libraryAPI.books[1].reviews[0].comment);
-// console.log("11 ", libraryAPI.books[0].author.nationality);
-// console.log("12 ", libraryAPI.books[0].reviews[1].reviewer);
-// console.log("13 ", libraryAPI.books[0].genres);
-// console.log("14 ", libraryAPI.books[1].author.name);
-// console.log("15 ", libraryAPI.books[1].reviews[0].rating);
 
 // Group B
 
@@ -91,22 +75,7 @@ const movieAPI = {
   ],
 };
 
-// Group B movieAPI
-// console.log("1 ", movieAPI.movies[0].title);
-// console.log("2 ", movieAPI.movies[0].genres);
-// console.log("3 ", movieAPI.movies[0].cast[0].role);
-// console.log("4 ", movieAPI.movies[1].title);
-// console.log("5 ", movieAPI.movies[0].cast[1].name);
-// console.log("6 ", movieAPI.movies[1].genres[1]);
-// console.log("7 ", movieAPI.movies[1].cast[0].name);
-// console.log("8 ", movieAPI.movies[1].cast[1].name);
-// console.log("9 ", movieAPI.movies[1].cast[1].role);
-// console.log("10 ", movieAPI.movies[0].genres);
-// console.log("11 ", movieAPI.movies[1].cast[0].name);
-// console.log("12 ", movieAPI.movies[0].cast[1].role);
-// console.log("13 ", movieAPI.movies[1].title);
-// console.log("14 ", movieAPI.movies[1].cast);
-// console.log("15 ", movieAPI.movies[1].cast[0].role);
+
 
 // Group C
 
@@ -146,22 +115,7 @@ const restaurantAPI = {
     },
   ],
 };
-// Group C restaurantAPI
-// console.log("1 ", restaurantAPI.restaurants[0].name);
-// console.log("2 ", restaurantAPI.restaurants[0].cuisineType);
-// console.log("3 ", restaurantAPI.restaurants[0].menu[0].ingredients);
-// console.log("4 ", restaurantAPI.restaurants[0].menu[1].price);
-// console.log("5 ", restaurantAPI.restaurants[0].menu[1].dishName);
-// console.log("6 ", restaurantAPI.restaurants[1].menu[0].price);
-// console.log("7 ", restaurantAPI.restaurants[1].menu[1].ingredients);
-// console.log("8 ", restaurantAPI.restaurants[1].menu[0].dishName);
-// console.log("9 ", restaurantAPI.restaurants[1].cuisineType);
-// console.log("10 ", restaurantAPI.restaurants[1].menu[1].price);
-// console.log("11 ", restaurantAPI.restaurants[0].menu);
-// console.log("12 ", restaurantAPI.restaurants[1].menu[0].dishName);
-// console.log("13 ", restaurantAPI.restaurants[1].menu[0].ingredients[0]);
-// console.log("14 ", restaurantAPI.restaurants[0].name);
-// console.log("15 ", restaurantAPI.restaurants[1].menu[1].ingredients[1]);
+
 
 // GROUP D
 
@@ -202,19 +156,4 @@ const travelAPI = {
   ],
 };
 
-// Group D travelAPI
-// console.log("1 ", travelAPI.destinations[0].locationName);
-// console.log("2 ", travelAPI.destinations[0].popularAttractions);
-// console.log("3 ", travelAPI.destinations[0].tours[1].duration);
-// console.log("4 ", travelAPI.destinations[0].tours[0].price);
-// console.log("5 ", travelAPI.destinations[1].tours[0].tourName);
-// console.log("6 ", travelAPI.destinations[1].popularAttractions);
-// console.log("7 ", travelAPI.destinations[1].tours[0].price);
-// console.log("8 ", travelAPI.destinations[1].tours[1].duration);
-// console.log("9 ", travelAPI.destinations[1].locationName);
-// console.log("10 ", travelAPI.destinations[0].tours[0].duration);
-// console.log("11 ", travelAPI.destinations[1].tours[1].tourName);
-// console.log("12 ", travelAPI.destinations[0].tours);
-// console.log("13 ", travelAPI.destinations[1].popularAttractions[1]);
-// console.log("14 ", travelAPI.destinations[0].tours[1].price);
-// console.log("15 ", travelAPI.destinations[1].tours[0].tourName);
+

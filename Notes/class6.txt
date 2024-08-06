@@ -40,3 +40,47 @@ PLAIN ARRAY Methods.
 13. fill(value, start, end): Fills all the elements of an array from a start index to an end index with a static value.
 
 14. copyWithin(target, start, end): Shallow copies part of an array to another location in the same array and returns it.
+
+
+Assignments.
+
+Certainly! Here are the revised questions without the code snippets:
+
+### Questions for Books Array
+
+1. **Complex String Joining**
+   - Join all the book titles into a single string, separated by commas. Then, remove the last book from the array, add a new book "War and Peace" to the beginning, and join all the titles into a single string, separated by semicolons.
+
+2. **Remove and Return First Book**
+   - Remove the first book from the array and return it. Next, add a new book "Pride and Prejudice" to the end, and then remove the first book again and return it.
+
+3. **Add to Beginning and Remove First**
+   - Add a new book "Pride and Prejudice" to the beginning, then add "War and Peace" to the beginning, and finally remove the first book and return it.
+
+4. **Add to End and Modify**
+   - Add a new book "War and Peace" to the end of the array, then remove the first book, and finally join all remaining book titles into a single string, separated by commas.
+
+5. **Remove and Add Books**
+   - Remove the last book from the array and return it. Then, add "Pride and Prejudice" to the beginning and "War and Peace" to the end.
+
+ Questions for Nested Array of Objects
+
+6. **Nested Array Manipulation**
+
+   - Join all the titles in the first genre's titles array into a single string, separated by a space. Then, remove the last title, add a new title "Brave New World" to the beginning, and join all titles into a single string again, separated by commas.
+
+7. **First Title Manipulation**
+
+   - Remove the first title from the `titles` array of the "Classics" genre and return it. Then, add "Pride and Prejudice" to the beginning of the `titles` array, and finally remove the first title and return it.
+
+8. **Add and Remove Titles**
+
+   - Add a new title "Pride and Prejudice" to the beginning of the `titles` array of the "Classics" genre. Next, remove the first title, then add "War and Peace" to the end of the `titles` array, and finally remove the last title.
+
+9. **Add to End and Join**
+
+   - Add a new title "The Count of Monte Cristo" to the end of the `titles` array of the "Adventure" genre. Then, remove the first title from the `titles` array, and join all remaining titles into a single string, separated by commas.
+
+10. **Remove and Modify Titles**
+
+    - Remove the last title from the `titles` array of the "Fiction" genre and return it. Then, add "Pride and Prejudice" to the beginning of the `titles` array and remove the first title.

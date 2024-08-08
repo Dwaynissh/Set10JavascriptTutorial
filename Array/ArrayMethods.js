@@ -33,6 +33,72 @@ const brandNewCar = [
   },
 ];
 
+const numbers = [3, 5, 1, 2, 4];
+const numbers2 = [19, 2, 2, 4, 16, 25, 25];
+
+// 15. CopyWithin
+// const copyWithinn = foodStuffs.copyWithin(0, 0, 4);
+// console.log("Checking Copy Within", copyWithinn);
+// console.log("Checking Copy Within", foodStuffs);
+
+// 14. Fill
+// const checkingFill = foodStuffs.fill("hii", 0, 4);
+// const checkingFill2 = brandNewCar[0].ownerNames.fill("Kenny", 0, 2);
+// console.log("Reverse", checkingFill2);
+// console.log("Foodstuffs", foodStuffs);
+
+// 13. Reverse
+// const checkingReverse = foodStuffs.reverse();
+// const checkingReverse2 = brandNewCar[0].carMph.reverse();
+// console.log("Reverse", checkingReverse2);
+
+// 12. ToString
+// const checkingTostring = foodStuffs.toString();
+// const checkingTostring2 = brandNewCar[0].features.toString();
+// console.log("Tostring", checkingTostring2);
+
+// const checkingSort = foodStuffs.sort();
+// console.log("Checking Sort", checkingSort);
+// console.log("Checking Foodstuffs", foodStuffs);
+
+// 11. Sort
+// const numberSort = numbers2.sort();
+// const numberSortCompare = numbers2.sort(
+//   (smallNumber, bigNumber) => smallNumber - bigNumber
+// );
+// const numberSortCompare2 = numbers2.sort(
+//   (smallNumber, bigNumber) => bigNumber - smallNumber
+// );
+// console.log("Number sort", numberSortCompare);
+
+// 10. IndexOf
+// const checkingIndexOf = foodStuffs.indexOf("garri");
+// console.log("Checking IndexOf", checkingIndexOf);
+// console.log("Checking Foodstuffs", foodStuffs);
+
+// 9. LastIndexOf
+// const checkingLastIndexOf =
+//   brandNewCar[0].features.lastIndexOf("Ambience Lighting");
+// console.log("Checking IndexOf", checkingLastIndexOf);
+// console.log("Checking Foodstuffs", brandNewCar);
+
+// const checkingSplice = foodStuffs.splice(2, 4, "Paw Paw");
+// console.log("checking splice", checkingSplice);
+// console.log("Foodstuffs", foodStuffs);
+
+// 8. Splice
+// const checkingSplice2 = brandNewCar[0].ownerNames.splice(0, 1, "Prince");
+// console.log("checking splice nested", checkingSplice2);
+// console.log("checking splice nested", brandNewCar);
+
+// 7. Slice
+// const checkingSlice = foodStuffs.slice(0, 5);
+// console.log("checking slice", checkingSlice);
+// console.log("foodStuffs", foodStuffs);
+// const checkingSlice2 = brandNewCar[0].carMph.slice(0, 2);
+// console.log(checkingSlice2);
+// console.log(brandNewCar);
+
 // 6. Join
 const checkingJoin = foodStuffs.join("|");
 console.log("Checking Join Return Type: ", checkingJoin);

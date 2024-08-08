@@ -65,22 +65,17 @@ Certainly! Here are the revised questions without the code snippets:
 
  Questions for Nested Array of Objects
 
-6. **Nested Array Manipulation**
+### Question 1
+Access and print out "Brave New World", then add "The Man That Knew Infinity" to the "Science" section, and combine the "Fiction" and "Science" sections into a new array. Print the final combined array.
 
-   - Join all the titles in the first genre's titles array into a single string, separated by a space. Then, remove the last title, add a new title "Brave New World" to the beginning, and join all titles into a single string again, separated by commas.
+### Question 2
+Remove the last book from the "Non-Fiction" section, add "Silent Spring" to the beginning of the "Non-Fiction" section, and then combine the "Non-Fiction" section with the "Fiction" section. Print the final combined array.
 
-7. **First Title Manipulation**
+### Question 3
+Add "To Kill a Mockingbird" to the end of the "Fiction" section, remove the first book from the "Science" section, and then combine the "Fiction" section with the "Science" section. Print the final combined array.
 
-   - Remove the first title from the `titles` array of the "Classics" genre and return it. Then, add "Pride and Prejudice" to the beginning of the `titles` array, and finally remove the first title and return it.
+### Question 4
+Remove "Cosmos" from the "Science" section, add "The Gene" to the beginning of the "Science" section, and then combine the "Science" section with the "Non-Fiction" section. Print the final combined array.
 
-8. **Add and Remove Titles**
-
-   - Add a new title "Pride and Prejudice" to the beginning of the `titles` array of the "Classics" genre. Next, remove the first title, then add "War and Peace" to the end of the `titles` array, and finally remove the last title.
-
-9. **Add to End and Join**
-
-   - Add a new title "The Count of Monte Cristo" to the end of the `titles` array of the "Adventure" genre. Then, remove the first title from the `titles` array, and join all remaining titles into a single string, separated by commas.
-
-10. **Remove and Modify Titles**
-
-    - Remove the last title from the `titles` array of the "Fiction" genre and return it. Then, add "Pride and Prejudice" to the beginning of the `titles` array and remove the first title.
+### Question 5
+Add "The Great Gatsby" to the "Fiction" section, remove "Sapiens" from the "Non-Fiction" section, and then combine the "Fiction" and "Non-Fiction" sections into a new array. Print the final combined array.

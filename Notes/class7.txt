@@ -4,6 +4,7 @@ Set10 Second Class 7.
 1. Simple Plain Array METHODS Classwork
 2. HigherOrder Array Methods
 3. Differences Between Plain Array methods and HigherOrder Array Methods
+4. JavaScript Symbols Operators
 
 ARRAY METHODS OVERVIEW.
 

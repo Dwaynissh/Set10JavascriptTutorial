@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./Array/ArrayMethods.js"
+    "start": "nodemon ./Dwayne/Arrays/HigherOrder.js"
   },
   "keywords": [],
   "author": "",

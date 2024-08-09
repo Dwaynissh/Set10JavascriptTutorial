@@ -10,28 +10,108 @@ ARRAY METHODS OVERVIEW.
 HIGHER-ORDER ARRAY Methods.
     Higher-order array methods, on the other hand, take functions as arguments to perform more complex operations, like transforming or filtering elements based on specified criteria.
 
-1. map(callbackFn, thisArg): Creates a new array populated with the results of calling a provided function on every element in the calling array.
+### JavaScript Higher-Order Array Methods Class Notes
 
-2. filter(callbackFn, thisArg): Creates a new array with all elements that pass the test implemented by the provided function.
+#### 1. **Map**
+   - **Definition:** Creates a new array by applying a function to every element of the original array.
+   - **Arguments:** A callback function with up to three parameters: `element`, `index`, and `array`.
+   - **Operation:** Executes the callback on each element of the array.
+   - **Returns:** A new array with each element transformed by the callback.
+   - **Return Data Type:** Array.
+   - **Alters Original Array:** NO.
 
-3. reduce(callbackFn, initialValue): Executes a reducer function on each element of the array, resulting in a single output value.
+#### 2. **Filter**
+   - **Definition:** Creates a new array with elements that pass the test implemented by the callback function.
+   - **Arguments:** A callback function with up to three parameters: `element`, `index`, and `array`.
+   - **Operation:** Executes the callback on each element, including only the elements for which the callback returns `true`.
+   - **Returns:** A new array with the elements that pass the test.
+   - **Return Data Type:** Array.
+   - **Alters Original Array:** NO.
 
-4. reduceRight(callbackFn, initialValue): Executes a reducer function on each element of the array, resulting in a single output value, from right to left.
+#### 3. **Reduce**
+   - **Definition:** Reduces the array to a single value by applying a function against an accumulator and each element.
+   - **Arguments:** A callback function with up to four parameters: `accumulator`, `element`, `index`, and `array`. Optionally, an initial value for the accumulator.
+   - **Operation:** Executes the callback, accumulating the result into a single value.
+   - **Returns:** The final accumulated value.
+   - **Return Data Type:** Depends on the return value of the callback function (can be any data type).
+   - **Alters Original Array:** NO.
 
-5. forEach(callbackFn, thisArg): Executes a provided function once for each array element.
+#### 4. **ReduceRight**
+   - **Definition:** Similar to `reduce`, but it processes the array from right to left.
+   - **Arguments:** A callback function with up to four parameters: `accumulator`, `element`, `index`, and `array`. Optionally, an initial value for the accumulator.
+   - **Operation:** Executes the callback, accumulating the result into a single value, starting from the last element.
+   - **Returns:** The final accumulated value.
+   - **Return Data Type:** Depends on the return value of the callback function (can be any data type).
+   - **Alters Original Array:** NO.
 
-6. find(callbackFn, thisArg): Returns the value of the first element in the array that satisfies the provided testing function.
+#### 5. **forEach**
+   - **Definition:** Executes a provided function once for each array element.
+   - **Arguments:** A callback function with up to three parameters: `element`, `index`, and `array`.
+   - **Operation:** Applies the callback function to each element in the array.
+   - **Returns:** `undefined`.
+   - **Return Data Type:** Undefined.
+   - **Alters Original Array:** NO (but the callback can mutate the array).
 
-7. findIndex(callbackFn, thisArg): Returns the index of the first element in the array that satisfies the provided testing function.
+#### 6. **Find**
+   - **Definition:** Returns the first element in the array that satisfies the provided testing function.
+   - **Arguments:** A callback function with up to three parameters: `element`, `index`, and `array`.
+   - **Operation:** Executes the callback on each element until it finds one that returns `true`.
+   - **Returns:** The first element that satisfies the test, or `undefined` if none do.
+   - **Return Data Type:** Depends on the element type in the array.
+   - **Alters Original Array:** NO.
 
-8. every(callbackFn, thisArg): Tests whether all elements in the array pass the test implemented by the provided function.
+#### 7. **FindIndex**
+   - **Definition:** Returns the index of the first element in the array that satisfies the provided testing function.
+   - **Arguments:** A callback function with up to three parameters: `element`, `index`, and `array`.
+   - **Operation:** Executes the callback on each element until it finds one that returns `true`.
+   - **Returns:** The index of the first element that satisfies the test, or `-1` if none do.
+   - **Return Data Type:** Number.
+   - **Alters Original Array:** NO.
 
-9. some(callbackFn, thisArg): Tests whether at least one element in the array passes the test implemented by the provided function.
+#### 8. **Every**
+   - **Definition:** Tests whether all elements in the array pass the test implemented by the provided function.
+   - **Arguments:** A callback function with up to three parameters: `element`, `index`, and `array`.
+   - **Operation:** Executes the callback on each element to check if it returns `true`.
+   - **Returns:** `true` if all elements pass the test, otherwise `false`.
+   - **Return Data Type:** Boolean.
+   - **Alters Original Array:** NO.
 
-10. flat(depth): Creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+#### 9. **Some**
+   - **Definition:** Tests whether at least one element in the array passes the test implemented by the provided function.
+   - **Arguments:** A callback function with up to three parameters: `element`, `index`, and `array`.
+   - **Operation:** Executes the callback on each element until one returns `true`.
+   - **Returns:** `true` if at least one element passes the test, otherwise `false`.
+   - **Return Data Type:** Boolean.
+   - **Alters Original Array:** NO.
 
-11. flatMap(callbackFn, thisArg): First maps each element using a mapping function, then flattens the result into a new array.
+#### 10. **Flat**
+   - **Definition:** Creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+   - **Arguments:** A depth value specifying how deep the flattening should go (default is 1).
+   - **Operation:** Flattens the array up to the given depth.
+   - **Returns:** A new flattened array.
+   - **Return Data Type:** Array.
+   - **Alters Original Array:** NO.
 
-12. from(arrayLike, mapFn, thisArg): Creates a new, shallow-copied Array instance from an array-like or iterable object.
+#### 11. **FlatMap**
+   - **Definition:** Maps each element using a mapping function, then flattens the result into a new array.
+   - **Arguments:** A callback function with up to three parameters: `element`, `index`, and `array`.
+   - **Operation:** Applies the mapping function and flattens the result.
+   - **Returns:** A new array that is the result of the map and flatten operations.
+   - **Return Data Type:** Array.
+   - **Alters Original Array:** NO.
 
-13. of(element0, element1, ..., elementN): Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments.
+#### 12. **From**
+   - **Definition:** Creates a new array instance from an array-like or iterable object.
+   - **Arguments:** An array-like or iterable object and an optional map function.
+   - **Operation:** Converts the object into an array, applying the map function if provided.
+   - **Returns:** A new array.
+   - **Return Data Type:** Array.
+   - **Alters Original Array:** NO.
+
+#### 13. **Of**
+   - **Definition:** Creates a new array with a variable number of arguments, regardless of number or type of the arguments.
+   - **Arguments:** Any number of arguments.
+   - **Operation:** Puts all arguments into a new array.
+   - **Returns:** A new array containing all the arguments.
+   - **Return Data Type:** Array.
+   - **Alters Original Array:** NO.

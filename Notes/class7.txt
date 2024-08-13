@@ -116,3 +116,68 @@ HIGHER-ORDER ARRAY Methods.
    - Returns: A new array containing all the arguments.
    - Return Data Type: Array.
    - Alters Original Array: NO.
+
+
+JAVSCRIPT SYMBOLS OPERATORS
+JavaScript Symbols: Short Notes
+
+ 1. Equality and Identity Operators
+   - `===` (Strict Equality):
+     - Compares two values for equality without type conversion.
+     - Both the value and the type must be the same.
+     - Example: `5 === '5'` returns `false` because the types (number and string) differ.
+   
+   - `!==` (Strict Inequality):
+     - Compares two values for inequality without type conversion.
+     - Returns `true` if either the value or type is different.
+     - Example: `5 !== '5'` returns `true` because the types differ.
+
+   - `==` (Loose Equality):
+     - Compares two values for equality with type conversion.
+     - Converts the values to the same type before comparison.
+     - Example: `5 == '5'` returns `true` because the string `'5'` is converted to a number.
+
+   - `!=` (Loose Inequality):
+     - Compares two values for inequality with type conversion.
+     - Returns `true` if the values are not equal after conversion.
+     - Example: `5 != '5'` returns `false` because they are equal after conversion.
+
+ 2. Logical Operators
+   - `&&` (Logical AND):
+     - Returns `true` if both operands are `true`.
+     - Stops evaluating as soon as one operand is `false`.
+     - Example: `true && false` returns `false`.
+
+   - `||` (Logical OR):
+     - Returns `true` if at least one of the operands is `true`.
+     - Stops evaluating as soon as one operand is `true`.
+     - Example: `true || false` returns `true`.
+
+   - `!` (Logical NOT):
+     - Inverts the boolean value of an operand.
+     - Example: `!true` returns `false`.
+
+ 3. Comparison Operators
+   - `>` (Greater Than):
+     - Returns `true` if the left operand is greater than the right operand.
+     - Example: `7 > 5` returns `true`.
+
+   - `<` (Less Than):
+     - Returns `true` if the left operand is less than the right operand.
+     - Example: `3 < 5` returns `true`.
+
+   - `>=` (Greater Than or Equal To):
+     - Returns `true` if the left operand is greater than or equal to the right operand.
+     - Example: `5 >= 5` returns `true`.
+
+   - `<=` (Less Than or Equal To):
+     - Returns `true` if the left operand is less than or equal to the right operand.
+     - Example: `5 <= 7` returns `true`.
+
+ Summary
+- `===` and `!==` perform strict comparison (without type conversion).
+- `&&` and `||` are logical operators used for combining boolean expressions.
+- `>`, `<`, `>=`, and `<=` are comparison operators that evaluate the relative size of operands.
+- `!` negates a boolean value, reversing it.
+
+These symbols are fundamental in controlling the flow and logic of JavaScript programs, enabling comparisons and decisions based on conditions.

@@ -25,7 +25,11 @@ const students = [
   },
 ];
 
-const nname = "Hello";
+//Some
+
+const checkArt = students.some((el) => el.age === 25);
+console.log("Checking Some", checkArt);
+
 // Map
 const checkingNames = students.map((student) => {
   const getNames = student.name;
@@ -47,7 +51,7 @@ const checkAges = students.map((student) => {
 // console.log("Map1 = ", checkingNames);
 // console.log("Map2 = ", checkingScores);
 // console.log("Map3 = ", getNameandScore);
-console.log("Map3 = ", checkAges);
+// console.log("Map3 = ", checkAges);
 
 let x = "YXZ";
 let user = "XYz";
@@ -59,8 +63,6 @@ const ourFunction = (x, y) => {
   let resultUser = userSplit.sort().join("").toUpperCase();
   let resultX = xSplit.sort().join("").toUpperCase();
 
-  console.clear();
-
   if (resultUser === resultX) {
     return true;
   } else {
@@ -68,27 +70,34 @@ const ourFunction = (x, y) => {
   }
 };
 
-// console.log(ourFunction(x, user));
+// console.log("reading", ourFunction(x, user));
 
 let a = [1, 4, 3, 7, 11, 19, 15];
 
 // console.log(
+//   "Applying Map",
 //   a.map((el) => {
 //     return el;
 //   })
 // );
 
+console.log();
+
 // console.log(
+//   "Applying Sort",
 //   a.sort((a, b) => {
 //     return b - a;
 //   })
 // );
 
 // console.log(
+//   "Applying Filter",
 //   a.filter((el) => {
-//     return el !== 1;
+//     return el < 5;
 //   })
 // );
+
+console.log();
 
 let entry = [
   {
@@ -119,37 +128,40 @@ let entry = [
 ];
 
 const search = (arr, user) => {
-  let a = arr.filter((el) => {
+  let searchResults = arr.filter((el) => {
     return el.name === user;
   });
 
-  return a;
+  return searchResults;
 };
-console.clear();
+
+// console.log("Filter Search", search(entry, "John Doe"));
 
 const remove = (arr, id) => {
-  let a = arr.filter((el) => {
+  let removedUser = arr.filter((el) => {
     return el.id !== id;
   });
 
-  return a;
+  return removedUser;
 };
 
-console.log(
-  entry
-    .map((el) => {
-      return el.name;
-    })
-    .sort()
-);
+// console.log("Filter Remove: ", search(entry, 1));
+
+// console.log(
+//   entry
+//     .map((el) => {
+//       return el.name;
+//     })
+//     .sort()
+// );
 
 let xx = Array.from({ length: 10 }, () => {
-  let a = "ABCDEFGHIJKLMNOPQRSTUVWXYZ@^%";
+  let letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ@^%";
 
   let score = Math.round(Math.random() * 100);
-  let a1 = Math.round(Math.random() * a.length);
+  let randomNames = Math.round(Math.random() * letters.length);
 
-  // return { name: ${a[a1]}, score },
+  return `${randomNames} ${score}`;
 });
 
-console.log(xx);
+// console.log(xx);

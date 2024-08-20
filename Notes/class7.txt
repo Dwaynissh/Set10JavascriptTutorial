@@ -30,7 +30,7 @@ HIGHER-ORDER ARRAY Methods.
    - Alters Original Array: NO.
 
 3. Reduce
-   - Definition: Reduces the array to a single value by applying a function against an accumulator and each element.
+   - Definition: Reduces the array to a single value by applying a callback function against an accumulator and each element.
    - Arguments: A callback function with up to four parameters: `accumulator`, `element`, `index`, and `array`. Optionally, an initial value for the accumulator.
    - Operation: Executes the callback, accumulating the result into a single value.
    - Returns: The final accumulated value.

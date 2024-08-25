@@ -1,48 +1,57 @@
-// An integer is a whole Number
-// A number with decimal is a float
-// Javascript regards both floats and Integers as numbers
+// An Interger is a whole number
+// Javascript Regards both Intergers, Decimals and Floats as Numbers
 
 let myNum = 42;
-let numNum = 42.0;
+let decimalNum = 42.23;
+let myStringNum = "42";
 
-if (myNum === numNum) {
-  console.log("They are same");
-}
+console.clear();
 
-// Checking String
-let myString = "43";
-console.log(myString + 3);
+// if (myNum == myStringNum) {
+//   console.log("They are the same");
+// } else {
+//   console.log("They are not the same");
+// }
 
-if (myNum === myString) {
-  console.log(`yesss the same`);
-} else {
-  console.log(`Nahh una no relate`);
-}
+// console.log("10" * "3");
+// console.log(NaN);
 
-// Converting String to Number
-console.log(Number(myString) + 2);
+let a = [2];
+let b = [2];
+let c = 2;
+let d = 2;
 
-// Now checking Stringtxt to number
-const newNumber = Number("HelloWorld");
-const newNumber2 = Number("10");
-const final =
-  newNumber2 === 10 ? console.log("Na number o") : console.log("Not a number");
-console.log(newNumber2);
+console.log(c === d);
+console.log(c == d);
 
-//Now checking Bolean value to number
-let booleanTrue = true;
-let booleanFalse = false;
+console.log();
 
-console.log("True: ", Number(booleanTrue));
-console.log("False: ", Number(booleanFalse));
+console.log(a === b);
+console.log(a == b);
 
-// About Number is NAN = checks Weather the Value and DataType is Number
+console.log();
 
-// The global isNaN () Function determines wether a value is NaN or Not
+console.log(a == a);
+console.log(b == b);
 
-const myName = "Dave";
-console.log("Checking Number is NAN", Number.isNaN(myName));
+let car = {
+  bumper: 1,
+};
 
-//Global
+const x = "ate";
+const y = x.toUpperCase();
+console.log("string.. ", x === y);
 
-console.log("Checking Global is NAN", isNaN(myName));
+const aa = "a";
+const AA = "A";
+
+console.log(aa.charCodeAt(0));
+console.log(AA.charCodeAt(0));
+
+String().Number;
+Number().
+Boolean;
+undefined;
+Symbol;
+null;
+Object;

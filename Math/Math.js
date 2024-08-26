@@ -2,56 +2,75 @@
 // Javascript Regards both Intergers, Decimals and Floats as Numbers
 
 let myNum = 42;
-let decimalNum = 42.23;
+let decimalNum = 42.0;
+let decimalNum2 = 42.01;
 let myStringNum = "42";
+let myStringNum2 = "5";
 
 console.clear();
 
-// if (myNum == myStringNum) {
-//   console.log("They are the same");
-// } else {
-//   console.log("They are not the same");
-// }
+// Checking for stringValue
 
-// console.log("10" * "3");
-// console.log(NaN);
+console.log("12" / 2);
 
-let a = [2];
-let b = [2];
-let c = 2;
-let d = 2;
+console.log("Two String with Values Number ", myStringNum - myStringNum2);
 
-console.log(c === d);
-console.log(c == d);
+console.log("String value check... ", myStringNum + 3);
+console.log("Number value check... ", 10 + 10);
 
-console.log();
+if (myStringNum + 3 === 45) {
+  console.log("This strictly equals 45");
+} else {
+  console.log("This strictly equals 423 and it concats the string");
+}
 
-console.log(a === b);
-console.log(a == b);
+// Checking datatype
+console.log(typeof myNum);
+console.log(typeof decimalNum);
+console.log(typeof myStringNum);
 
-console.log();
+if (myNum === decimalNum) {
+  console.log(`${myNum} is strictly equals ${decimalNum}`);
+} else {
+  console.log(`${myNum} not equals ${decimalNum}`);
+}
+// Second Operation
+if (myNum === decimalNum2) {
+  console.log(`${myNum} is strictly equals ${decimalNum2}`);
+} else {
+  console.log(`${myNum} not equals ${decimalNum2}`);
+}
 
-console.log(a == a);
-console.log(b == b);
+console.clear();
+// Boolean
+let truth = true;
+let falsey = false;
 
-let car = {
-  bumper: 1,
-};
+console.log("Number Value for true", Number(truth));
+console.log("Number Value for false", Number(falsey));
 
-const x = "ate";
-const y = x.toUpperCase();
-console.log("string.. ", x === y);
+"1" === 1 ? console.log("Yes its true") : console.log("No its not true");
 
-const aa = "a";
-const AA = "A";
-
-console.log(aa.charCodeAt(0));
-console.log(AA.charCodeAt(0));
-
-String().Number;
-Number().
+// Primitive Datatypes Objects
+String, Number;
+Array;
 Boolean;
-undefined;
-Symbol;
-null;
-Object;
+
+console.clear();
+
+// NAN
+
+let groom = "12";
+let groom1 = "hello";
+let groom2 = 12345;
+
+// The number is NaN () function checks weather the value and datatype is Number
+console.log("Number is Not a Number", Number.isNaN(groom1));
+console.log("Number is Not a Number", Number.isNaN(groom2));
+
+// The Global is NaN () function checks weather the value is NaN or not
+console.log();
+
+console.log("Global is NaN", isNaN(groom));
+console.log("Global is NaN", isNaN(groom1));
+console.log("Global is NaN", isNaN(groom2));

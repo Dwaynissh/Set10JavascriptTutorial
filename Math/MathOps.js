@@ -5,8 +5,8 @@ const myStringNumber2 = "454.3422abcd";
 
 // Math. Interger
 
-console.log(Number.isInteger(myNumber));
-console.log(Number.isInteger(myDecimalNumber));
+console.log(" is integer", Number.isInteger(myNumber));
+console.log("number is integer ", Number.isInteger(myDecimalNumber));
 console.log(Number.isInteger(myStringNumber));
 
 // Parsefloat
@@ -26,7 +26,7 @@ console.log("ParseInt", parseInt1);
 console.log("ParseInt", parseInt2);
 console.log("ParseInt", parseInt3);
 
-console.clear();
+// console.clear();
 
 // ToFixed
 console.log(myNumber.toFixed(2));

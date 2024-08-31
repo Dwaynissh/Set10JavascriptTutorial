@@ -21,13 +21,3 @@ sayHiToMercy();
 console.log(welcomeUser("mije"));
 console.log(statement("Praise", "Male", 24));
 console.log(statement("Mercy", "Female", 22));
-
-// 1
-
-function hello() {
-  return `Hiii`;
-}
-
-const hello2 = () => {
-  return `Hiiii`;
-};

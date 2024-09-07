@@ -76,3 +76,9 @@ const isEven = (num) => {
 };
 
 console.log("4: ", isEven(6));
+console.clear();
+
+let arrofID = [12345, 5674, 8292, 3284, 1922, 4382, 2230, 7344, 4393];
+
+const splicedOut = arrofID.splice(arrofID.indexOf(12345), 1);
+console.log(arrofID);

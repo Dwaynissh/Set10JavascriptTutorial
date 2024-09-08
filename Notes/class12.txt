@@ -1,0 +1,13 @@
+Set10 Second Class 11
+
+• CLASS OBJECTIVES
+1. Introduction to Typescript 
+2. Class Definition 
+3. examples
+4. Prompt-Sync
+
+CLASS OVERVIEW.
+
+
+*JAVASCRIPT ASSIGNMENT*
+

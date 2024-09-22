@@ -7,7 +7,13 @@ Set10 Second Class 11
 4. Prompt-Sync
 
 CLASS OVERVIEW.
+Defining a Class
+A class is defined using the class keyword, followed by the name of the class. The body of the class contains the constructor and methods.
 
+Notes:
+The constructor is a special method used to initialize object properties.
+Methods defined inside a class do not require the function keyword.
+The new keyword is used to create instances of the class.
 
-*JAVASCRIPT ASSIGNMENT*
+*ASSIGNMENT*
 
